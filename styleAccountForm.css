@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+
+  }
+
+  .bg {
+    background-image: url("assets/dobbysForm.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.form{
+    color:white;
+    margin-top: 30px;
+    text-align: center;
+
+}

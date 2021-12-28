@@ -1,0 +1,33 @@
+
+
+USE  ID364064_sortingHat;
+
+CREATE TABLE Houses (
+HouseId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Name VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Users (
+UserId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Firstname VARCHAR (20) NOT NULL,
+Lastname VARCHAR (20) NOT NULL,
+Age INT NOT NULL,
+Gender VARCHAR (10) NOT NULL,
+Skill VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Sorting (
+SortingId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+HouseId int,
+UserId INT,
+FOREIGN KEY (HouseId) REFERENCES Houses(HouseId),
+FOREIGN KEY (UserId) REFERENCES Users(UserId)
+);
+
+INSERT INTO Houses (Name) VALUES ('Gryffindor');
+INSERT INTO Houses (Name) VALUES ('Slytherin');
+INSERT INTO Houses (Name) VALUES ('Hufflepuff');
+INSERT INTO Houses (Name) VALUES ('Ravenclaw');
+
+
+

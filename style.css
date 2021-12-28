@@ -1,0 +1,108 @@
+body, html {
+    height: 100%;
+
+  }
+
+  .bg {
+    background-image: url("assets/blackWallpaperWithGlasses.jpeg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+h1 {
+    color: white;
+}
+
+.gif{
+    float:right;
+    width: 300px;
+    height: 270px;
+}
+
+
+
+.whiteSpace{
+    
+        background-color: lightsteelblue;
+        color: black;
+        border: 5px solid black;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+#Slytherin {
+    background-color: green;
+    border: 5px solid black;
+    float:left;
+    width:150px;
+    height:70px;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 20%;
+    
+}
+#Ravenclaw {
+    background-color: blue;
+    border: 5px solid black;
+    float:left;
+    width:150px;
+    height:70px;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 10%;
+}
+#Gryffindor {
+    background-color: maroon;
+    border: 5px solid black;
+    float:right;
+    width:150px;
+    height:70px;
+    position: absolute;
+    margin-left: 69%;
+    margin-top: 20%;
+}
+#Hufflepuff {
+    background-color: yellow;
+    border: 5px solid black;
+    float:right;
+    width:150px;
+    height:70px;
+    position: absolute;
+    margin-left: 69%;
+    margin-top: 10%;
+}
+
+#start{
+    background-color: lightsteelblue;
+    color: black;
+    border: 5px solid black;
+    width:150px;
+    height:70px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#account{
+    background-color: lightsteelblue;
+    color: black;
+    border: 5px solid black;
+    width:150px;
+    height:70px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
